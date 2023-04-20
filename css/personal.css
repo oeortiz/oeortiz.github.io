@@ -240,7 +240,7 @@ li{
   }
 
   .contact-form-question{
-    font-size: 14px;
+    font-size: 25px;
   }
   .contact-form h2{
     padding: 0px;
@@ -258,15 +258,15 @@ li{
     margin-left: 20px;
   }
   .redes-link.github{
-    background-image: url(/images/personal/github.svg);
+    background-image: url(https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/github.svg);
     background-size: 50px 50px;
   }
   .redes-link.facebook{
-    background-image: url(/images/personal/facebook.svg);
+    background-image: url(https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/facebook.svg);
     background-size: 50px 50px;
   }
   .redes-link.instagram{
-    background-image: url(/images/personal/instagram.svg);
+    background-image: url(https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/instagram.svg);
     background-size: 50px 50px;
   }
   
