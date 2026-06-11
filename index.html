@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omar Eduardo Ortiz Vega</title>
+    <title>Omar Eduardo Ortiz Vega · Desarrollador Web Fullstack</title>
+    <meta name="description" content="Portafolio de Omar Eduardo Ortiz Vega, desarrollador web fullstack con conocimientos en C# y Azure DevOps. Proyectos, experiencia y contacto.">
+    <meta property="og:title" content="Omar Eduardo Ortiz Vega · Desarrollador Web Fullstack">
+    <meta property="og:description" content="Proyectos, experiencia y contacto de Omar Eduardo Ortiz Vega, desarrollador web fullstack con conocimientos en C# y Azure DevOps.">
+    <meta property="og:image" content="img/perfil.jpg">
+    <meta property="og:type" content="website">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/personal.css">
-    
+
 </head>
 <body>
     <header class="header">
         <div class="wrapper">
-            <figure>
-                <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/wp_contact.png" alt="LogoBeevamos">				
-            </figure>
+            <a href="#" class="brand">Omar Ortiz</a>
             <nav class="menu">
                 <ul>
                     <li><a href="#proyectos" class="link">Proyectos</a></li>
@@ -26,20 +29,20 @@
     </header>
     <section class="main">
         <div class="wrapper">
-            <h1>Hola Soy <span>Omar Eduardo Ortiz Vega</span><br>
+            <h1 class="reveal">Hola Soy <span>Omar Eduardo Ortiz Vega</span><br>
                 desarrollador <span>Web fullstack</span><br>
-                con conocimientos en  
+                con conocimientos en
                 <span>C# y Azure DevOps</span><br>
                 amante del emprendimiento</h1>
-            <figure>
-                <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/perfil.jpg" class="circular--square" alt="Foto de Perfil Omar Ortiz" width="500">
+            <figure class="reveal">
+                <img src="img/perfil.jpg" class="circular--square" alt="Foto de Perfil Omar Ortiz">
             </figure>
         </div>
     </section>
     <section id="proyectos" class="projects">
         <div class="wrapper">
             <h2>Proyectos</h2>
-            <article class="project">
+            <article class="project reveal">
                 <div class="project-left">
                     <h3 class="project-title">Proyecto de Fidelizacion para Hogares (QTAM)</h3>
                     <h4 class="project-languaje">C# Sql Server</h4>
@@ -66,14 +69,14 @@
                         <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/kantar.png"  alt="Logo Kantar Ibope Media" class="project-image">
                     </figure>
             </article>    
-            <article class="project">
+            <article class="project reveal">
                 <div class="project-left">
                     <h3 class="project-title">Proyecto de Inteligencia de Negocios (SKF-BI)</h3>
                     <h4 class="project-languaje">PHP Symfony Jquery y Css</h4>
                     <p class="project-date"><strong>Fecha 14-04-2013</strong></p>
                     <p class="project-link">
-                        <a href="#">SKF BI</a>
-                    </p>                
+                        <a href="https://bi.portalskflatintrade.com/" target="_blank" rel="noopener">SKF BI Latintrade</a>
+                    </p>
                     <p class="project-description"> Fortalezas para interpretar, analizar y diagnosticar casos de
                         uso entendiendo claramente el modelo de negocio del cliente,
                         además de realizar entregas a través de la totalidad del ciclo
@@ -87,13 +90,13 @@
                         <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/skf.png" alt="Logo SKF" class="project-image">
                     </figure>
             </article>    
-            <article class="project">
+            <article class="project reveal">
                 <div class="project-left">
                     <h3 class="project-title">Programa de Canales EPSON</h3>
                     <h4 class="project-languaje">PHP Symfony Jquery y Css</h4>
                     <p class="project-date"><strong>Fecha 14-04-2013</strong></p>
                     <p class="project-link">
-                        <a href="https://programadecanales.com/">Programa de Canales EPSON</a>
+                        <a href="https://col.programadecanales.com/home/inicio" target="_blank" rel="noopener">Programa de Canales EPSON</a>
                     </p>
                     
                     <p class="project-description"> Encargado de programar, implementar y mantener
@@ -116,78 +119,96 @@
     
     <section id="experiencia" class="experiencies">
         <div class="wrapper">
-            <article class="experiencie">
+            <article class="experiencie reveal">
+                <figure class="experiencie-container-image">
+                    <img src="img/axa-colpatria.png" class="experiencie-image axa-logo" alt="Logo AXA Colpatria">
+                </figure>
+                <div class="experience-down">
+                    <h3 class="experience-title">DevOps Engineer · AXA Colpatria</h3>
+                    <p class="experience-date"><strong>Noviembre 2025 — Presente</strong></p>
+                    <p class="experience-description">
+                        Creación y mantenimiento de pipelines CI/CD en Azure DevOps para equipos de
+                        desarrollo internos, con monitoreo continuo de despliegues y resolución de
+                        incidencias en ambientes de QA y producción. Brindo soporte a los equipos de
+                        desarrollo en la adopción de buenas prácticas de integración y entrega continua,
+                        además de integrar análisis de seguridad y calidad de código con Checkmarx y
+                        SonarQube dentro de los pipelines.
+                    </p>
+                </div>
+            </article>
+            <article class="experiencie reveal">
+                <figure class="experiencie-container-image">
+                    <img src="img/aws.svg" class="experiencie-image" alt="Logo AWS">
+                </figure>
+                <div class="experience-down">
+                    <h3 class="experience-title">Software Integrator DevOps · Freelance</h3>
+                    <p class="experience-date"><strong>2024 — 2025</strong></p>
+                    <p class="experience-description">
+                        Configuración y despliegue de servicios AWS (ECS y Lambda) para la integración
+                        de datos con SAP en el proyecto SKF, con automatización de reportes y gestión de
+                        almacenamiento en S3 mediante scripts en Python. Despliegue de una aplicación web
+                        completa en AWS Lightsail con base de datos RDS y dominio gestionado en Route 53,
+                        utilizando AWS CodePipeline para automatizar el proceso de entrega.
+                    </p>
+                </div>
+            </article>
+            <article class="experiencie reveal">
+                <figure class="experiencie-container-image">
+                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/c_charp.jpg" class="experiencie-image" alt="Logo C#">
+                </figure>
+                <div class="experience-down">
+                    <h3 class="experience-title">SSR Software Developer · Kantar</h3>
+                    <p class="experience-date"><strong>2019 — 2024</strong></p>
+                    <p class="experience-description">
+                        Diseño e implementación de pipelines de build y release en Azure DevOps que
+                        redujeron en más del 80% el tiempo de entrega de las aplicaciones. Edición y
+                        mantenimiento de pipelines para múltiples aplicaciones Windows Forms y ASP.NET,
+                        gestión de agentes de compilación y variables de entorno por etapa, y
+                        administración de servidores IIS junto con ambientes de despliegue sobre SQL Server.
+                    </p>
+                </div>
+            </article>
+            <article class="experiencie reveal">
                 <figure class="experiencie-container-image">
                     <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/symfony.png" class="experiencie-image" alt="Logo Symfony">
                 </figure>
                 <div class="experience-down">
-                    <h3 class="experience-title">Desarrollando con Symfony</h3>
+                    <h3 class="experience-title">Full Stack Developer · GSOFT Colombia</h3>
+                    <p class="experience-date"><strong>2016 — 2019</strong></p>
                     <p class="experience-description">
-                        Implementación y puesta en marcha de plataformas de gran envergadura gestionada a travez de admin generators
-                        y divisible por modulos a peticion del cliente. Se manejaron las siguientes tecnologias plugins como 
-                        sfGuardUser (sf 1.4) Twig (sf 4) Sonata Admin Bundle.
+                        Participación en la migración de servidores a AWS para el proyecto SKF BI en
+                        LATAM, configurando entornos cloud y coordinando los despliegues en producción.
+                        Desarrollo y mantenimiento de aplicaciones web corporativas con PHP, Symfony,
+                        jQuery y CSS, incluyendo plugins como sfGuardUser, Twig y Sonata Admin Bundle.
                     </p>
                 </div>
             </article>
-            <article class="experiencie">
-                <figure class="experiencie-container-image">                
-                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/jquery.png" class="experiencie-image" alt="Logo Jquery">
-                </figure>
-                <div class="experience-down">
-                    <h3 class="experience-title">Desarrollando con Jquery</h3>
-                    <p class="experience-description">
-                        Diseño de clases, creación y administracion de multiples interfaces que son completamente admistradas por Javascript 
-                        bajo Jquery como framework; Estas interfaces se cargaban a travez de solicitudes Ajax controlando los
-                        eventos y asignando respectivamente sus funciones para inyectar o eliminar contenido html segun el 
-                        comportamiento esperado.
-                    </p>
-                </div>
-            </article>
-            <article class="experiencie">
+            <article class="experiencie reveal">
                 <figure class="experiencie-container-image">
-                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/c_charp.jpg" class="experiencie-image" alt="Logo Symfony">
+                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/jquery.png" class="experiencie-image" alt="Logo jQuery">
                 </figure>
                 <div class="experience-down">
-                    <h3 class="experience-title">Desarrollo C#</h3>
+                    <h3 class="experience-title">Junior Web Developer · GSOFT Colombia</h3>
+                    <p class="experience-date"><strong>2013 — 2016</strong></p>
                     <p class="experience-description">
-                        Integracion entre servicios propios del lenguaje .net solucion de problemas y adaptación de mejoras según los requerimientos
-                        del cliente, soporte en mejoras de rendimiento que en algunos casos merecieron cambiar el flujo de los datos y reasignar
-                        objetos visuales para brindar un mejor performance, e incluso realizar procesos de reingenieria con modulos especificos.<br>
-                        Adicionalmente he logrado adquirir bastante experiencia en creacion mantenimiento y actualización de bases de datos tanto en MYSQL 
-                        como en SqlServer, debido a que son tecnologias que van de la mano de los desarrollos en los que he trabajado.
+                        Inicio de mi carrera profesional desarrollando funcionalidades para aplicaciones
+                        web e interfaces dinámicas administradas con jQuery, cargadas mediante
+                        solicitudes Ajax, además de apoyar los ciclos de despliegue de los proyectos
+                        del equipo.
                     </p>
                 </div>
             </article>
-            <article class="experiencie">
-                <figure class="experiencie-container-image">                
-                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/libres.png" class="experiencie-image" alt="Logo Jquery">
-                </figure>
-                <div class="experience-down">
-                    <h3 class="experience-title">Desarrollo fullstack</h3>
-                    <p class="experience-description">
-                        Con el paso de el tiempo he logrado adquirir conocimientos en tecnologias muy especificas como es el caso de CouchDB que es 
-                        un motor de base de datos no relacional que maneja estandares muy altos en la entrega informacion y que
-                        permite gran flexibilidad para realizar interoperabilidad desde multiples plataformas.<br><br>
-                        
-                        Por ultimo tambien cabe mencionar que tengo experiencia con Azure DevOps, AWS pues he logrado usar sus servicios en multiples ocasiones
-                        y me siento muy comodo con ambas tecnologias.
-                    </p>
-                </div>
-            </article>        
         </div>
     </section>
     <section id="hablemos" class="contact">
-        <div class="wrapper">
-            <form action="#" class="contact-form">
-				<a href="https://notionforms.io/forms/adelante-vamos-a-crear-algo-genial" class="button" target="_blank">
-					Deja un Mensaje					
-				</a>
-                <!--<label for="email">Dejame tus datos</label>-->                
-            </form>        
+        <div class="wrapper reveal">
+            <a href="https://wa.me/573116939566?text=Hola%2C%20vi%20tu%20portafolio.%20%C2%A1Hablemos%20de%20ingenier%C3%ADa%20y%20nuevos%20retos!" class="button" target="_blank" rel="noopener">
+                Deja un Mensaje
+            </a>
 
             <div class="redes">
-                <a href="https://github.com/oeortiz" class="redes-link github"></a>                
-                <a href="https://www.linkedin.com/in/oeortiz/" class="redes-link instagram"></a>
+                <a href="https://github.com/oeortiz" class="redes-link github" aria-label="Perfil de GitHub de Omar Ortiz" target="_blank" rel="noopener"></a>
+                <a href="https://www.linkedin.com/in/oeortiz/" class="redes-link linkedin" aria-label="Perfil de LinkedIn de Omar Ortiz" target="_blank" rel="noopener"></a>
             </div>
         </div>
     </section>
@@ -199,8 +220,27 @@
                 <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/favicon.ico" alt="">
             </div>
             <p>Diseñado por Omar Eduardo Ortiz Vega</p>
-        </div>        
+        </div>
     </footer>
     <script async data-nf='{"formurl":"https://notionforms.io/forms/adelante-hagamos-algo-genial","emoji":"💬","position":"right","bgcolor":"#3B82F6","width":"500"}' src='https://d3n1rwgcdu2uk.cloudfront.net/b96bcb50-a71e-41e1-bb6e-a72046c7f681/widgets/embed-min.js'></script>
+    <script>
+        (function () {
+            var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var targets = document.querySelectorAll('.reveal');
+            if (prefersReduced || !('IntersectionObserver' in window)) {
+                targets.forEach(function (el) { el.classList.add('is-visible'); });
+                return;
+            }
+            var observer = new IntersectionObserver(function (entries, obs) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+            targets.forEach(function (el) { observer.observe(el); });
+        })();
+    </script>
 </body>
 </html>
