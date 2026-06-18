@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omar Eduardo Ortiz Vega · Desarrollador Web Fullstack</title>
-    <meta name="description" content="Portafolio de Omar Eduardo Ortiz Vega, desarrollador web fullstack con conocimientos en C# y Azure DevOps. Proyectos, experiencia y contacto.">
-    <meta property="og:title" content="Omar Eduardo Ortiz Vega · Desarrollador Web Fullstack">
-    <meta property="og:description" content="Proyectos, experiencia y contacto de Omar Eduardo Ortiz Vega, desarrollador web fullstack con conocimientos en C# y Azure DevOps.">
+    <title>Omar Ortiz · Software Developer & Azure DevOps Engineer</title>
+    <meta name="description" content="Portafolio de Omar Eduardo Ortiz Vega — más de 10 años desarrollando software con C#, PHP, Python, .NET, Docker y Azure DevOps. Full Stack Developer & DevOps Engineer.">
+    <meta property="og:title" content="Omar Ortiz · Software Developer & Azure DevOps Engineer">
+    <meta property="og:description" content="Más de 10 años desarrollando soluciones de software y automatizando ciclos de entrega con C#, .NET, Docker y Azure DevOps.">
     <meta property="og:image" content="img/perfil.jpg">
     <meta property="og:type" content="website">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230B0146'/><text y='72' x='50' text-anchor='middle' font-size='60' font-family='Arial' font-weight='bold' fill='%237FC4FF'>O</text></svg>">
     <link rel="stylesheet" href="css/personal.css">
 
 </head>
@@ -22,20 +24,24 @@
                 <ul>
                     <li><a href="#proyectos" class="link">Proyectos</a></li>
                     <li><a href="#experiencia" class="link">Experiencia</a></li>
-                    <li><a href="#hablemos" class="link">Contactame</a></li>
+                    <li><a href="#hablemos" class="link">Contáctame</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <main>
     <section class="main">
         <div class="wrapper">
-            <h1 class="reveal">Hola Soy <span>Omar Eduardo Ortiz Vega</span><br>
-                desarrollador <span>Web fullstack</span><br>
-                con conocimientos en
-                <span>C# y Azure DevOps</span><br>
-                amante del emprendimiento</h1>
+            <div class="hero-text reveal">
+                <h1><span>Full Stack Software Developer</span><span class="hero-sep" aria-hidden="true"> | </span><span>Azure DevOps Engineer</span></h1>
+                <p class="hero-description">Más de 10 años desarrollando soluciones de software, automatizando procesos y optimizando ciclos de entrega mediante <span>C#</span>, <span>PHP</span>, <span>Python</span>, <span>.NET</span>, <span>.NET Core</span>, <span>Docker</span>, <span>AWS</span>, <span>Azure DevOps</span> y prácticas DevOps modernas.</p>
+                <div class="hero-cta">
+                    <a href="#proyectos" class="button hero-btn">Ver proyectos</a>
+                    <a href="#hablemos" class="button hero-btn hero-btn--ghost">Contáctame</a>
+                </div>
+            </div>
             <figure class="reveal">
-                <img src="img/perfil.jpg" class="circular--square" alt="Foto de Perfil Omar Ortiz">
+                <img src="img/perfil.jpg" class="circular--square" alt="Foto de Perfil Omar Ortiz" width="500" height="500">
             </figure>
         </div>
     </section>
@@ -44,36 +50,57 @@
             <h2>Proyectos</h2>
             <article class="project reveal">
                 <div class="project-left">
+                    <h3 class="project-title">Implementación Checkmarx &amp; SonarQube</h3>
+                    <div class="experience-tech">
+                        <span class="project-languaje">Azure DevOps</span>
+                        <span class="project-languaje">Checkmarx</span>
+                        <span class="project-languaje">SonarQube</span>
+                    </div>
+                    <p class="project-date">2025</p>
+                    <p class="project-link">
+                        <span class="project-company">AXA Colpatria — Proyecto activo</span>
+                    </p>
+                    <p class="project-description">
+                        Implementación de Quality Gates de seguridad y calidad de código integrados directamente en los pipelines de Azure DevOps de la compañía. Con Checkmarx se realiza análisis estático de seguridad (SAST) sobre el código fuente en cada build; SonarQube evalúa calidad, cobertura y deuda técnica. Ninguna aplicación llega a producción sin superar los umbrales definidos, garantizando un estándar uniforme en toda la organización.
+                    </p>
+                </div>
+                <figure class="project-container-image">
+                    <img src="img/axa-colpatria.png" alt="Logo AXA Colpatria" class="project-image project-image--contain" loading="lazy" width="280" height="140">
+                </figure>
+            </article>
+            <article class="project reveal">
+                <div class="project-left">
                     <h3 class="project-title">Proyecto de Fidelizacion para Hogares (QTAM)</h3>
-                    <h4 class="project-languaje">C# Sql Server</h4>
-                    <p class="project-date"><strong>Fecha 17-06-2019</strong></p>
+                    <div class="experience-tech">
+                        <span class="project-languaje">C#</span>
+                        <span class="project-languaje">SQL Server</span>
+                        <span class="project-languaje">Azure DevOps</span>
+                    </div>
+                    <p class="project-date">2019</p>
                     <p class="project-link">
                         <a href="https://www.kantaribopemedia.com.co/">Kantar Ibope Media</a>
                     </p>                
                     <p class="project-description">
-                        Encargado de realizar desarrollo y mantenimiento a
-                        aplicaciones corporativas que realizan la medición y los
-                        cálculos para la puntuación del raiting en los canales de
-                        televisión para Brasil, Argentina, Perú Y Colombia.
-                        <br>
-                        <br>
-                        Se ha desarrollado un proceso para mejorar la velocidad de
-                        entrega en el desarrollo. También con esta mejora se permite
-                        disponibilizar ambientes de prueba de manera oportuna, se
-                        realizó la implementación de CI/CD de una aplicación de
-                        escritorio desarrollada en C# integrando servicios de Azure
-                        Devops (Pipelines, Repos, Atifacts) y (Squirrel Open Source).
+                        Desarrollo y mantenimiento de aplicaciones corporativas que realizan la medición y los
+                        cálculos para la puntuación del rating en los canales de televisión para Brasil, Argentina, Perú y Colombia.
+                        Implementación de CI/CD para una aplicación de escritorio en C#, integrando Azure DevOps
+                        (Pipelines, Repos, Artifacts) y Squirrel Open Source para reducir drásticamente los tiempos de entrega.
                     </p>
                 </div>
                 <figure class="project-container-image">
-                        <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/kantar.png"  alt="Logo Kantar Ibope Media" class="project-image">
+                        <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/kantar.png" alt="Logo Kantar Ibope Media" class="project-image" loading="lazy">
                     </figure>
             </article>    
             <article class="project reveal">
                 <div class="project-left">
                     <h3 class="project-title">Proyecto de Inteligencia de Negocios (SKF-BI)</h3>
-                    <h4 class="project-languaje">PHP Symfony Jquery y Css</h4>
-                    <p class="project-date"><strong>Fecha 14-04-2013</strong></p>
+                    <div class="experience-tech">
+                        <span class="project-languaje">PHP</span>
+                        <span class="project-languaje">Symfony</span>
+                        <span class="project-languaje">jQuery</span>
+                        <span class="project-languaje">AWS</span>
+                    </div>
+                    <p class="project-date">2013</p>
                     <p class="project-link">
                         <a href="https://bi.portalskflatintrade.com/" target="_blank" rel="noopener">SKF BI Latintrade</a>
                     </p>
@@ -87,14 +114,19 @@
                         plataformas.</p>
                 </div>
                 <figure class="project-container-image">
-                        <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/skf.png" alt="Logo SKF" class="project-image">
+                        <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/skf.png" alt="Logo SKF" class="project-image" loading="lazy">
                     </figure>
             </article>    
             <article class="project reveal">
                 <div class="project-left">
                     <h3 class="project-title">Programa de Canales EPSON</h3>
-                    <h4 class="project-languaje">PHP Symfony Jquery y Css</h4>
-                    <p class="project-date"><strong>Fecha 14-04-2013</strong></p>
+                    <div class="experience-tech">
+                        <span class="project-languaje">PHP</span>
+                        <span class="project-languaje">Symfony</span>
+                        <span class="project-languaje">jQuery</span>
+                        <span class="project-languaje">CSS</span>
+                    </div>
+                    <p class="project-date">2013</p>
                     <p class="project-link">
                         <a href="https://col.programadecanales.com/home/inicio" target="_blank" rel="noopener">Programa de Canales EPSON</a>
                     </p>
@@ -108,24 +140,28 @@
                     </p>                
                 </div>
                 <figure class="project-container-image">
-                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/epson.png" alt="Logo SKF" class="project-image">
+                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/epson.png" alt="Logo EPSON" class="project-image" loading="lazy">
                 </figure>
             </article> 
         </div>
     </section>
-    <div class="wrapper">
-        <h2 class="experience-main-title">Experiencia</h2>
-    </div>
-    
     <section id="experiencia" class="experiencies">
+        <div class="experience-heading wrapper">
+            <h2>Experiencia</h2>
+        </div>
         <div class="wrapper">
-            <article class="experiencie reveal">
+            <article class="experiencie reveal" style="--reveal-delay: 0ms">
                 <figure class="experiencie-container-image">
-                    <img src="img/axa-colpatria.png" class="experiencie-image axa-logo" alt="Logo AXA Colpatria">
+                    <img src="img/azure_devops.svg" class="experiencie-image logo-invert" alt="Logo Azure DevOps" loading="lazy">
                 </figure>
                 <div class="experience-down">
                     <h3 class="experience-title">DevOps Engineer · AXA Colpatria</h3>
-                    <p class="experience-date"><strong>Noviembre 2025 — Presente</strong></p>
+                    <p class="experience-date">Nov 2025 — Presente <span class="badge-active">Activo</span></p>
+                    <div class="experience-tech">
+                        <span class="project-languaje">Azure DevOps</span>
+                        <span class="project-languaje">Checkmarx</span>
+                        <span class="project-languaje">SonarQube</span>
+                    </div>
                     <p class="experience-description">
                         Creación y mantenimiento de pipelines CI/CD en Azure DevOps para equipos de
                         desarrollo internos, con monitoreo continuo de despliegues y resolución de
@@ -136,13 +172,18 @@
                     </p>
                 </div>
             </article>
-            <article class="experiencie reveal">
+            <article class="experiencie reveal" style="--reveal-delay: 75ms">
                 <figure class="experiencie-container-image">
-                    <img src="img/aws.svg" class="experiencie-image" alt="Logo AWS">
+                    <img src="img/aws.svg" class="experiencie-image" alt="Logo AWS" loading="lazy">
                 </figure>
                 <div class="experience-down">
                     <h3 class="experience-title">Software Integrator DevOps · Freelance</h3>
-                    <p class="experience-date"><strong>2024 — 2025</strong></p>
+                    <p class="experience-date">2024 — 2025</p>
+                    <div class="experience-tech">
+                        <span class="project-languaje">AWS</span>
+                        <span class="project-languaje">Python</span>
+                        <span class="project-languaje">CodePipeline</span>
+                    </div>
                     <p class="experience-description">
                         Configuración y despliegue de servicios AWS (ECS y Lambda) para la integración
                         de datos con SAP en el proyecto SKF, con automatización de reportes y gestión de
@@ -152,13 +193,37 @@
                     </p>
                 </div>
             </article>
-            <article class="experiencie reveal">
+            <article class="experiencie reveal" style="--reveal-delay: 150ms">
                 <figure class="experiencie-container-image">
-                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/c_charp.jpg" class="experiencie-image" alt="Logo C#">
+                    <img src="img/react.svg" class="experiencie-image logo-invert" alt="React" loading="lazy">
+                </figure>
+                <div class="experience-down">
+                    <h3 class="experience-title">Software Integrator · Freelance</h3>
+                    <p class="experience-date">2024 — 2025</p>
+                    <div class="experience-tech">
+                        <span class="project-languaje">React</span>
+                        <span class="project-languaje">Java</span>
+                        <span class="project-languaje">Spring Boot</span>
+                    </div>
+                    <p class="experience-description">
+                        Desarrollo de interfaces web con React integradas a servicios backend construidos
+                        con Java y Spring Boot, implementando APIs REST para la comunicación entre capas
+                        y gestionando el ciclo completo de integración y despliegue de las soluciones.
+                    </p>
+                </div>
+            </article>
+            <article class="experiencie reveal" style="--reveal-delay: 225ms">
+                <figure class="experiencie-container-image">
+                    <img src="img/c_sharp.svg" class="experiencie-image logo-invert" alt="Logo C#" loading="lazy">
                 </figure>
                 <div class="experience-down">
                     <h3 class="experience-title">SSR Software Developer · Kantar</h3>
-                    <p class="experience-date"><strong>2019 — 2024</strong></p>
+                    <p class="experience-date">2019 — 2024</p>
+                    <div class="experience-tech">
+                        <span class="project-languaje">C#</span>
+                        <span class="project-languaje">Azure DevOps</span>
+                        <span class="project-languaje">SQL Server</span>
+                    </div>
                     <p class="experience-description">
                         Diseño e implementación de pipelines de build y release en Azure DevOps que
                         redujeron en más del 80% el tiempo de entrega de las aplicaciones. Edición y
@@ -168,13 +233,19 @@
                     </p>
                 </div>
             </article>
-            <article class="experiencie reveal">
+            <article class="experiencie reveal" style="--reveal-delay: 300ms">
                 <figure class="experiencie-container-image">
-                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/symfony.png" class="experiencie-image" alt="Logo Symfony">
+                    <img src="img/symfony.svg" class="experiencie-image logo-invert" alt="Logo Symfony" loading="lazy">
                 </figure>
                 <div class="experience-down">
                     <h3 class="experience-title">Full Stack Developer · GSOFT Colombia</h3>
-                    <p class="experience-date"><strong>2016 — 2019</strong></p>
+                    <p class="experience-date">2016 — 2019</p>
+                    <div class="experience-tech">
+                        <span class="project-languaje">PHP</span>
+                        <span class="project-languaje">Symfony</span>
+                        <span class="project-languaje">jQuery</span>
+                        <span class="project-languaje">AWS</span>
+                    </div>
                     <p class="experience-description">
                         Participación en la migración de servidores a AWS para el proyecto SKF BI en
                         LATAM, configurando entornos cloud y coordinando los despliegues en producción.
@@ -183,13 +254,18 @@
                     </p>
                 </div>
             </article>
-            <article class="experiencie reveal">
+            <article class="experiencie reveal" style="--reveal-delay: 375ms">
                 <figure class="experiencie-container-image">
-                    <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/jquery.png" class="experiencie-image" alt="Logo jQuery">
+                    <img src="img/jquery.svg" class="experiencie-image logo-invert" alt="Logo jQuery" loading="lazy">
                 </figure>
                 <div class="experience-down">
                     <h3 class="experience-title">Junior Web Developer · GSOFT Colombia</h3>
-                    <p class="experience-date"><strong>2013 — 2016</strong></p>
+                    <p class="experience-date">2013 — 2016</p>
+                    <div class="experience-tech">
+                        <span class="project-languaje">jQuery</span>
+                        <span class="project-languaje">JavaScript</span>
+                        <span class="project-languaje">Ajax</span>
+                    </div>
                     <p class="experience-description">
                         Inicio de mi carrera profesional desarrollando funcionalidades para aplicaciones
                         web e interfaces dinámicas administradas con jQuery, cargadas mediante
@@ -202,9 +278,17 @@
     </section>
     <section id="hablemos" class="contact">
         <div class="wrapper reveal">
-            <a href="https://wa.me/573116939566?text=Hola%20Omar%2C%20vi%20tu%20portafolio.%20%C2%A1Hablemos%20de%20ingenier%C3%ADa%20y%20nuevos%20retos!" class="button" target="_blank" rel="noopener">
-                Deja un Mensaje
-            </a>
+            <div class="contact-actions">
+                <a href="https://wa.me/573116939566?text=Hola%20Omar%2C%20vi%20tu%20portafolio.%20%C2%A1Hablemos%20de%20ingenier%C3%ADa%20y%20nuevos%20retos!" class="button" target="_blank" rel="noopener">
+                    Escríbeme por WhatsApp
+                </a>
+                <a href="CV_OmarOrtiz_2026_DevOps.pdf" class="button button--outline" download>
+                    Descargar Hoja de Vida
+                </a>
+            </div>
+            <p class="contact-email">
+                O escríbeme al correo <a href="mailto:omaredvega@gmail.com">omaredvega@gmail.com</a>
+            </p>
 
             <div class="redes">
                 <a href="https://github.com/oeortiz" class="redes-link github" aria-label="Perfil de GitHub de Omar Ortiz" target="_blank" rel="noopener"></a>
@@ -213,17 +297,17 @@
         </div>
     </section>
 
+    </main>
+    <button class="scroll-top" id="scroll-top-btn" aria-label="Volver al inicio">↑</button>
     <footer class="footer">
         <div class="wrapper">
             <div class="footer-details">
-                <p>Portafolio</p>
-                <img src="https://beevamos-images.s3-sa-east-1.amazonaws.com/personal/favicon.ico" alt="">
+                <p>Portafolio · Omar Ortiz</p>
             </div>
             <p>Diseñado por Omar Eduardo Ortiz Vega</p>
         </div>
     </footer>
-    <script async data-nf='{"formurl":"https://notionforms.io/forms/adelante-hagamos-algo-genial","emoji":"💬","position":"right","bgcolor":"#3B82F6","width":"500"}' src='https://d3n1rwgcdu2uk.cloudfront.net/b96bcb50-a71e-41e1-bb6e-a72046c7f681/widgets/embed-min.js'></script>
-    <script>
+<script>
         (function () {
             var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
             var targets = document.querySelectorAll('.reveal');
@@ -241,6 +325,48 @@
             }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
             targets.forEach(function (el) { observer.observe(el); });
         })();
+
+        // Nav active state on scroll
+        (function () {
+            if (!('IntersectionObserver' in window)) return;
+            var navLinks = {
+                'proyectos':  document.querySelector('a[href="#proyectos"]'),
+                'experiencia': document.querySelector('a[href="#experiencia"]'),
+                'hablemos':   document.querySelector('a[href="#hablemos"]')
+            };
+            var navObserver = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    var link = navLinks[entry.target.id];
+                    if (!link) return;
+                    if (entry.isIntersecting) {
+                        Object.values(navLinks).forEach(function (l) { if (l) l.classList.remove('active'); });
+                        link.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.25, rootMargin: '-70px 0px -40% 0px' });
+            ['proyectos', 'experiencia', 'hablemos'].forEach(function (id) {
+                var el = document.getElementById(id);
+                if (el) navObserver.observe(el);
+            });
+        })();
+
+        // Scroll-to-top
+        (function () {
+            var btn = document.getElementById('scroll-top-btn');
+            if (!btn) return;
+            window.addEventListener('scroll', function () {
+                btn.classList.toggle('visible', window.scrollY > 500);
+            }, { passive: true });
+            btn.addEventListener('click', function () {
+                var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                window.scrollTo({ top: 0, behavior: prefersReduced ? 'auto' : 'smooth' });
+            });
+        })();
+
+        // Easter egg
+        console.log("%cOmar Ortiz", "font-size: 1.5rem; font-weight: bold; color: #7FC4FF; font-family: 'Fjalla One', sans-serif;");
+        console.log("%cFull Stack Software Developer | Azure DevOps Engineer", "color: #1a7a5c; font-size: 1rem;");
+        console.log("%c¿Curiosidad técnica? Me parece bien.\nhttps://github.com/oeortiz • https://www.linkedin.com/in/oeortiz/", "color: #666; font-size: 0.85rem;");
     </script>
 </body>
 </html>
