@@ -15,6 +15,11 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230B0146'/><text y='72' x='50' text-anchor='middle' font-size='60' font-family='Arial' font-weight='bold' fill='%237FC4FF'>O</text></svg>">
     <link rel="stylesheet" href="css/personal.css">
     <style>
+        .brand-group {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
         .lang-toggle {
             background: none;
             border: 1.5px solid currentColor;
@@ -36,14 +41,16 @@
 <body>
     <header class="header">
         <div class="wrapper">
-            <a href="#" class="brand">Omar Ortiz</a>
+            <div class="brand-group">
+                <a href="#" class="brand">Omar Ortiz</a>
+                <button class="lang-toggle" id="lang-btn" aria-label="Switch language">ES</button>
+            </div>
             <nav class="menu">
                 <ul>
                     <li><a href="#proyectos" class="link" data-i18n="nav.projects">Projects</a></li>
                     <li><a href="#experiencia" class="link" data-i18n="nav.experience">Experience</a></li>
                     <li><a href="#hablemos" class="link" data-i18n="nav.contact">Contact</a></li>
                 </ul>
-                <button class="lang-toggle" id="lang-btn" aria-label="Switch language">ES</button>
             </nav>
         </div>
     </header>
